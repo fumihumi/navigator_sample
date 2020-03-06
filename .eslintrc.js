@@ -26,6 +26,7 @@ module.exports = {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-filename-extension": ["error", { extensions: [".js", ".jsx", ".ts", ".tsx"] }],
+    "react/jsx-props-no-spreading": "warn",
     "import/extensions": ["error", "always", { js: "never", jsx: "never", ts: "never", tsx: "never" }],
     "@typescript-eslint/explicit-function-return-type": 0,
     "@typescript-eslint/explicit-member-accessibility": "off",
@@ -36,7 +37,7 @@ module.exports = {
     "prettier/prettier": [
       "error",
       {
-        printWidth: 120
+        printWidth: 80
       }
     ],
     "@typescript-eslint/no-unused-vars": [
