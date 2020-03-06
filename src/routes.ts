@@ -1,7 +1,8 @@
 const routes = {
   Home: "Home",
   Details: "Details",
-  CreatePost: "CreatePost"
+  CreatePost: "CreatePost",
+  Profile: "Profile"
 } as const;
 
 export default routes;
@@ -15,4 +16,5 @@ export type RootStackParamList = {
     otherParam?: any;
   };
   CreatePost: undefined;
+  Profile: { name: string };
 };
